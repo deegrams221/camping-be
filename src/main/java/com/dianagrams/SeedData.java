@@ -15,6 +15,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Transactional
 @Component
+
 public class SeedData implements CommandLineRunner {
     RoleRepository rolerepos;
     UserRepository userrepos;
@@ -25,7 +26,7 @@ public class SeedData implements CommandLineRunner {
     }
 
     @Override
-    public void run(String[] args) throws Exception {
+    public void run(String... args) throws Exception {
         Role r1 = new Role("ADMIN");
 
         rolerepos.save(r1);
