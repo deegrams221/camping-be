@@ -1,6 +1,6 @@
 # Camping Back-end
 
-Find the deployed project at
+
 
 ## Diana Grams
 
